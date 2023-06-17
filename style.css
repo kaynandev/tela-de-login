@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Open Sans,sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+}
+
+ 
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Open Sans;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: url('https://sedcaretextil.com.br/wp-content/gallery/detalhes-lisos-pijamas-2/Verde-escuro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#left-login{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+}
+#right-login {
+    background-color: #030a09a2;
+    width: 60%;
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    padding: 10px;
+    transform: translateY(-30px);
+    
+}
+
+#left-login > h1{
+    color: #8AA6A3;
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+
+#right-login > h1{
+    text-align: center;
+    color: #8AA6A3;
+    font-size: 2em;
+    padding: 10px;
+}
+
+#inputs{
+    color: #8AA6A3;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+
+}
+input[type=text]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    transform: translateX(3px);
+}
+input[type=password]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    transform: translateX(15px);
+    margin: 8px 0px;
+}
+input[type=button]{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    background-color: #127369;
+    color: #8AA6A3;
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+}
+.button:hover{
+    border:solid 1px #127369;
+    background-color: #10403B;
+    transform: translate(3px, 3px);
+    transition: 0.5s;
+}
+
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    font-size: 0.8em;
+    cursor: pointer;
+
+}
+
+a:hover{
+    color: #127369;
+    transition: 0.2s;
+}
+img{
+    width: 250px
+}
